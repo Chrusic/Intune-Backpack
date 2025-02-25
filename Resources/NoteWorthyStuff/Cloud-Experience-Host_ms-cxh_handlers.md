@@ -150,3 +150,13 @@ I tried to create a comprehensive list of what they are and what they do. Note t
 * Use with caution as they are undocumented and may change without notice
 * Most useful for managing Windows authentication, user accounts, and enterprise settings
 * Consider testing in a controlled environment before using in production
+
+## Troubleshooting
+
+If a device has troubles starting the ms-cxh commands, either manually or during enrollment, there might be issues with the Appx Package.
+
+Using the following command, try to install\reinstall the CXH (Cloud Experience Host ) app:
+
+``` ps
+Add-Appxpackage -RegisterByFamilyName -MainPackage (($(Get-AppXPackage -user (whoami) <em>CloudExperience</em>).PackageFamilyName))
+```
