@@ -6,6 +6,13 @@ All credit to their original writers.
 
 alyse and see if it's worth creating some sort of pwsh wrapper for it or if someone else has done it.
 
+## Community Creators
+
+* Uguc Koc
+  * Microsoft MVP
+  * <https://github.com/ugurkocde>
+  * Git Repo is an impressive set of reliable and trustworthy scripts and tools.
+
 ## Community Sites
 
 List of community sites I find helpful or interesting.
@@ -24,7 +31,12 @@ List of resources, tips, tricks, solutions for Windows OS.
 
 * Using WinSAT as a systeminfo alternative
   * <https://www.ittips.ch/posts/tip-7-use-winsat-as-systeminfo/>
-  * Could be useful, have to an
+  * Could be useful
+
+## Kusto Queries
+
+* Collection of community created KQL queries
+* <https://www.kqlsearch.com/>
 
 ## Graph
 
